@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * main - check the code
@@ -13,4 +14,5 @@ char *ptr;
 ptr = cap_string(str);
 printf("%s", ptr);
 printf("%s", str);
-return (0)
+return (0);
+}
