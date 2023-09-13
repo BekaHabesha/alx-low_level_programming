@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
-  * main - ...
-  * @argc: ...
-  * @argv: ...
+  * main - Prints the result of simple operations.
+  * @argc: The number of arguments supplied to the program.
+  * @argv: An array of pointers to the arguments
   *
-  * Return: ...
+  * Return: Always 0.
   */
 int main(int argc, char *argv[])
 {
@@ -27,6 +27,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	printf("%d\n",oprt(atoi(argv[1]), atoi(argv[3])));
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
