@@ -40,4 +40,4 @@ hare = (hare->next)->next;
 }
 
 return (NULL);
-
+}
