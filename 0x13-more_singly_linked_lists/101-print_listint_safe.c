@@ -1,10 +1,8 @@
 #include "lists.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
 * free_listp - frees a listp linked list.
-*
 * @head: the head of a listp list.
 *
 * Return: no return.
@@ -29,7 +27,6 @@ free(temp);
 
 /**
 * print_listint_safe - Prints a linked list.
-*
 * @head: head pointer to the list.
 *
 * Return: number of nodes in the list.
