@@ -185,7 +185,7 @@
 ## **No. 10. Palindromes**
   * <ins>**102-result**</ins>
 
-  * <ins>**A palindromic number reads the same both ways. **</ins>
+  * <ins>**A palindromic number reads the same both ways.**</ins>
       * The largest palindrome made from the product of two 2-digit numbers is <ins>**9009**</ins>:
         * **9009 = 91 × 99.**
 
