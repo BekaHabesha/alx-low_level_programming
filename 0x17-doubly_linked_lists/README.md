@@ -86,23 +86,23 @@
 
 ## **No. 2. Add node**
  * <ins>**2-add_dnodeint.c**</ins>
-  * <ins>**Write a function that adds a new node at the beginning of a dlistint_t list.**</ins>
-   * <ins>Prototype</ins>:
-    * **dlistint_t *add_dnodeint(dlistint_t **head, const int n)**
+   * <ins>**Write a function that adds a new node at the beginning of a dlistint_t list.**</ins>
+     * <ins>Prototype</ins>:
+      * "**dlistint_t add_dnodeint(dlistint_t **head, const int n)**"
    * <ins>Return</ins>:
-    * **the address of the new element,** or
-    * **NULL if it failed**
+     * **the address of the new element,** or
+     * **NULL if it failed**
 
 ##
 
 ## **No. 3. Add node at the end**
  * <ins>**3-add_dnodeint_end.c**</ins>
-  * <ins>**Write a function that adds a new node at the end of a dlistint_t list.**</ins>
-   * <ins>Prototype</ins>:
-    * **dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)**
-   * <ins>Return</ins>:
-    * **the address of the new element,** or
-    * **NULL if it failed**
+   * <ins>**Write a function that adds a new node at the end of a dlistint_t list.**</ins>
+     * <ins>Prototype</ins>:
+      * **dlistint_t add_dnodeint_end(dlistint_t **head, const int n)**"
+     * <ins>Return</ins>:
+      * **the address of the new element,** or
+      * **NULL if it failed**
 
 ##
 
@@ -118,7 +118,7 @@
   * <ins>**5-get_dnodeint.c**</ins>
     * <ins>**Write a function that returns the nth node of a dlistint_t linked list.**</ins>
       * <ins>Prototype</ins>:
-        * "**dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)**"
+        * "**dlistint_t get_dnodeint_at_index(dlistint_t *head, unsigned int index)**"
       * where **index** is the index of the node,
         * starting from **0**
       * if the node does not exist,
@@ -140,7 +140,7 @@
   * <ins>**7-insert_dnodeint.c, 2-add_dnodeint.c, 3-add_dnodeint_end.c**</ins>
     * <ins>**Write a function that inserts a new node at a given position.**</ins>
       * <ins>Prototype</ins>:
-        * "**dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)**"
+        * "**dlistint_t insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)**"
       * where **index** is the index of the list where the new node should be added.
         * Index starts at **0**
       * <ins>Returns</ins>:
