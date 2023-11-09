@@ -85,24 +85,24 @@
 ##
 
 ## **No. 2. Add node**
-  * <ins>**2-add_dnodeint.c**</ins>
-    * <ins>**Write a function that adds a new node at the beginning of a dlistint_t list.**</ins>
-      * <ins>Prototype</ins>:
-        * "**dlistint_t *add_dnodeint(dlistint_t **head, const int n)**"
-      * <ins>Return</ins>:
-        * **the address of the new element,** or
-        * **NULL if it failed**
+ * <ins>**2-add_dnodeint.c**</ins>
+  * <ins>**Write a function that adds a new node at the beginning of a dlistint_t list.**</ins>
+   * <ins>Prototype</ins>:
+    * **dlistint_t *add_dnodeint(dlistint_t **head, const int n)**
+   * <ins>Return</ins>:
+    * **the address of the new element,** or
+    * **NULL if it failed**
 
 ##
 
 ## **No. 3. Add node at the end**
-  * <ins>**3-add_dnodeint_end.c**</ins>
-    * <ins>**Write a function that adds a new node at the end of a dlistint_t list.**</ins>
-      * <ins>Prototype</ins>:
-        * "**dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)**"
-      * <ins>Return</ins>:
-        * **the address of the new element,** or
-        * **NULL if it failed**
+ * <ins>**3-add_dnodeint_end.c**</ins>
+  * <ins>**Write a function that adds a new node at the end of a dlistint_t list.**</ins>
+   * <ins>Prototype</ins>:
+    * **dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)**
+   * <ins>Return</ins>:
+    * **the address of the new element,** or
+    * **NULL if it failed**
 
 ##
 
