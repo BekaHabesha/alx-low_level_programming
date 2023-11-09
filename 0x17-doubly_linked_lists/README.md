@@ -70,7 +70,7 @@
   * <ins>**0-print_dlistint.c**</ins>
     * <ins>**Write a function that prints all the elements of a dlistint_t list..**</ins>
       * <ins>Prototype</ins>:
-        * **[size_t print_dlistint(const dlistint_t *h);]**
+        * **(size_t print_dlistint(const dlistint_t *h);)**
       * <ins>Return</ins>:
         * **the number of nodes**
 
