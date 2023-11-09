@@ -1,7 +1,7 @@
 <H1 align="center", height="1500"> <ins> README.md File </ins> </H1>
 <H1 align="center", height="1500"> <ins> 0x17. C - Doubly linked lists README.md File</ins> </H1>
 
-![Beki Habesha.]( https://i.ibb.co/X2NFfKP/Alx-logo-0x17-C-Doubly-linked-lists.jpg)
+![Beki Habesha.]( https://i.ibb.co/P9smtGh/Alx-logo-0x17-C-Doubly-linked-lists.jpg)
 
 ##
 
@@ -15,17 +15,6 @@
 * Tasks in number: <ins>**12 Tasks (9-Mandatory & 3Advanced)**</ins>
 * Mandatory_Tasks: <ins>**From Task 0 to 8**</ins>
 * Advanced_Tasks: <ins>**From Task 9 to 11**</ins>
-
-##
-
-### **PROJECT_TITLE:**
-<h2 align="center"> <ins>0x17. C - Doubly linked lists</ins> </h2>
-
-### **GITHUB_REPOSITORY:**
-<h2 align="center"> <ins>alx-low_level_programming</ins> </h2>
-
-### **DIRECTORY:**
-<h2 align="center"> <ins>0x17-doubly_linked_lists</ins> </h2>
 
 ##
 
@@ -60,6 +49,18 @@
 
 
 ##
+![BekaHabesha.]( https://i.ibb.co/y5wmQyd/Alx-enginn-Build-ur-future.png)
+
+### **PROJECT_TITLE:**
+<h2 align="center"> <ins>0x17. C - Doubly linked lists</ins> </h2>
+
+### **GITHUB_REPOSITORY:**
+<h2 align="center"> <ins>alx-low_level_programming</ins> </h2>
+
+### **DIRECTORY:**
+<h2 align="center"> <ins>0x17-doubly_linked_lists</ins> </h2>
+
+##
 
 <h1 align="center"> <ins> PROJECT TASKS (Mandatory and Advanced)</h1> </ins>
 
@@ -69,7 +70,7 @@
   * <ins>**0-print_dlistint.c**</ins>
     * <ins>**Write a function that prints all the elements of a dlistint_t list..**</ins>
       * <ins>Prototype</ins>:
-        * **"size_t print_dlistint(const dlistint_t *h)"**
+        * "**size_t print_dlistint(const dlistint_t *h);**"
       * <ins>Return</ins>:
         * **the number of nodes**
 
@@ -79,7 +80,7 @@
   * <ins>**1-dlistint_len.c**</ins>
     * <ins>**Write a function that returns the number of elements in a linked dlistint_t list.**</ins>
       * <ins>Prototype</ins>:
-        * **size_t dlistint_len(const dlistint_t *h);**
+        * "**size_t dlistint_len(const dlistint_t *h);**"
 
 ##
 
@@ -87,7 +88,7 @@
   * <ins>**2-add_dnodeint.c**</ins>
     * <ins>**Write a function that adds a new node at the beginning of a dlistint_t list.**</ins>
       * <ins>Prototype</ins>:
-        * **dlistint_t *add_dnodeint(dlistint_t **head, const int n);**
+        * "**dlistint_t *add_dnodeint(dlistint_t **head, const int n);**"
       * <ins>Return</ins>:
         * **the address of the new element,** or
         * **NULL if it failed**
@@ -98,7 +99,7 @@
   * <ins>**3-add_dnodeint_end.c**</ins>
     * <ins>**Write a function that adds a new node at the end of a dlistint_t list.**</ins>
       * <ins>Prototype</ins>:
-        * **dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);**
+        * "**dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);**"
       * <ins>Return</ins>:
         * **the address of the new element,** or
         * **NULL if it failed**
@@ -109,7 +110,7 @@
   * <ins>**4-free_dlistint.c**</ins>
     * <ins>**Write a function that frees a dlistint_t list.**</ins>
       * <ins>Prototype</ins>:
-        * **void free_dlistint(dlistint_t *head);**
+        * "**void free_dlistint(dlistint_t *head);**"
 
 ##
 
@@ -117,7 +118,7 @@
   * <ins>**5-get_dnodeint.c**</ins>
     * <ins>**Write a function that returns the nth node of a dlistint_t linked list.**</ins>
       * <ins>Prototype</ins>:
-        * **dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);**
+        * "**dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);**"
       * where **index** is the index of the node,
         * starting from **0**
       * if the node does not exist,
@@ -129,7 +130,7 @@
   * <ins>**6-sum_dlistint.c**</ins>
     * <ins>**Write a function that returns the sum of all the data (n) of a dlistint_t linked list.**</ins>
       * <ins>Prototype</ins>:
-        * **int sum_dlistint(dlistint_t *head);**
+        * "**int sum_dlistint(dlistint_t *head);**"
       * if the list is empty,
         * return **0**
 
@@ -139,7 +140,7 @@
   * <ins>**7-insert_dnodeint.c, 2-add_dnodeint.c, 3-add_dnodeint_end.c**</ins>
     * <ins>**Write a function that inserts a new node at a given position.**</ins>
       * <ins>Prototype</ins>:
-        * **dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);**
+        * "**dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);**"
       * where **index** is the index of the list where the new node should be added.
         * Index starts at **0**
       * <ins>Returns</ins>:
@@ -157,7 +158,7 @@
   * <ins>**8-delete_dnodeint.c**</ins>
     * <ins>**Write a function that deletes the node at index index of a dlistint_t linked list.**</ins>
       * <ins>Prototype</ins>:
-        * **int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);**
+        * "**int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);**"
       * where **index** is the index of the node that should be deleted.
         * Index starts at **0**
       * <ins>Returns</ins>:
