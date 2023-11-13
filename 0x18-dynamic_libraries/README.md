@@ -69,6 +69,7 @@
   * -rwxrwxr-x 1 julien julien 13632 Jan  7 06:25 libdynamic.so
 
 * julien@ubuntu:~/0x18. Dynamic libraries$ nm -D libdynamic.so
+
 0000000000000a90 T _abs
 0000000000000aa9 T _atoi
 0000000000202048 B __bss_start
@@ -115,6 +116,7 @@ atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c
 
 * julien@ubuntu:~/0x18. Dynamic libraries$ ./1-create_dynamic_lib.sh 
 * julien@ubuntu:~/0x18. Dynamic libraries$ nm -D --defined-only liball.so 
+
 0000000000000a90 T _abs
 0000000000000aa9 T _atoi
 0000000000202048 B __bss_start
@@ -140,6 +142,7 @@ atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c
 0000000000001029 T _strpbrk
 000000000000109d T _strspn
 0000000000001176 T _strstr
+
 * julien@ubuntu:~/0x18. Dynamic libraries$ 
 
 #
@@ -156,6 +159,7 @@ atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c
       * See example for more detail.
 
 * julien@ubuntu:~/0x18$ cat 100-tests.py
+
 import random
 import ctypes
 
@@ -169,6 +173,7 @@ print("{} / {} = {}".format(a, b, cops.div(a, b)))
 print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 
 * julien@ubuntu:~/0x16. Doubly linked lists$ python3 100-tests.py 
+
 66 + -76 = -10
 66 - -76 = 142
 66 x -76 = -5016
@@ -176,6 +181,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 66 % -76 = 66
 
 * julien@ubuntu:~/0x18$ python3 100-tests.py 
+
 -34 + -57 = -91
 -34 - -57 = 23
 -34 x -57 = 1938
@@ -183,6 +189,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 -34 % -57 = -34
 
 * julien@ubuntu:~/0x18$ python3 100-tests.py 
+
 -5 + -72 = -77
 -5 - -72 = 67
 -5 x -72 = 360
@@ -190,6 +197,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 -5 % -72 = -5
 
 * julien@ubuntu:~/0x18$ python3 100-tests.py 
+
 39 + -62 = -23
 39 - -62 = 101
 39 x -62 = -2418
@@ -210,6 +218,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
     
     * Our mole got us a copy of the program, you can download it here.
       * Our mole also gave us a piece of documentation:
+
 /* Giga Millions program                                                                                    
   * Players may pick six numbers from two separate pools of numbers:                                                
   * - five different numbers from 1 to 75 and                                                                       
@@ -217,7 +226,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
   * You win the jackpot by matching all six winning numbers in a drawing.                                           
   * Your chances to win the jackpot is 1 in 258,890,850                                                             
   *                                                                                                                 
-  * usage: ./gm n1 n2 n3 n4 n5 bonus
+  */ usage: ./gm n1 n2 n3 n4 n5 bonus
 
 * You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS)
   * always checks its MD5 before running it
