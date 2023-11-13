@@ -68,6 +68,8 @@
 * julien@ubuntu:~/0x18. Dynamic libraries$ ls -la lib*
   * -rwxrwxr-x 1 julien julien 13632 Jan  7 06:25 libdynamic.so
 
+###
+
 * julien@ubuntu:~/0x18. Dynamic libraries$ nm -D libdynamic.so
 
 0000000000000a90 T _abs
@@ -115,6 +117,9 @@ abs.c   isalpha.c  islower.c  memcpy.c  putchar.c  strcat.c  strcmp.c  strlen.c 
 atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c  strpbrk.c  strstr.c
 
 * julien@ubuntu:~/0x18. Dynamic libraries$ ./1-create_dynamic_lib.sh 
+
+###
+
 * julien@ubuntu:~/0x18. Dynamic libraries$ nm -D --defined-only liball.so 
 
 0000000000000a90 T _abs
@@ -158,6 +163,8 @@ atoi.c  isdigit.c  isupper.c  memset.c  puts.c     strchr.c  strcpy.c  strncat.c
     * <ins>**Create a dynamic library that contains C functions that can be called from Python.**</ins>
       * See example for more detail.
 
+###
+
 * julien@ubuntu:~/0x18$ cat 100-tests.py
 
 import random
@@ -172,6 +179,8 @@ print("{} x {} = {}".format(a, b, cops.mul(a, b)))
 print("{} / {} = {}".format(a, b, cops.div(a, b)))
 print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 
+###
+
 * julien@ubuntu:~/0x16. Doubly linked lists$ python3 100-tests.py 
 
 66 + -76 = -10
@@ -179,6 +188,8 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 66 x -76 = -5016
 66 / -76 = 0
 66 % -76 = 66
+
+###
 
 * julien@ubuntu:~/0x18$ python3 100-tests.py 
 
@@ -252,6 +263,7 @@ print("{} % {} = {}".format(a, b, cops.mod(a, b)))
 * TL;DR;
   * This is what is going to happen
 
+###
 
 mss@gm_server$ . ./101-make_me_win.sh
 mss@gm_server$ rm 101-make_me_win.sh
