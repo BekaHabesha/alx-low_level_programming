@@ -31,43 +31,15 @@
 
 ![C_programming_logo.]( https://img-c.udemycdn.com/course/750x422/700012_a499_9.jpg)
 
-<h1> <ins>Header File</ins>:folder:</H1>
+<h1> <ins>Header File</ins>:cd:</H1>
 
 * [hash_tables.h](./hash_tables.h): is the **<ins>Header file containing definitions and prototypes**</ins> for **all types and functions written for the project.**
 
-<h2> <ins>Data Structures:</ins>:cd::heavy_check_mark:</H2>
+<h2> <ins>Data Structures:</ins>:heavy_check_mark:</H2>
 
-typedef struct hash_node_s
-{
-	char *key;
-	char *value;
-	struct hash_node_s *next;
-} hash_node_t;
+![BekaHabesha.]( https://i.ibb.co/2s75FnM/more-info-0x1-A-C-Hash-tables-Alx-logo.png)
 
-typedef struct hash_table_s
-{
-	unsigned long int size;
-	hash_node_t **array;
-} hash_table_t;
-
-typedef struct shash_node_s
-{
-	char *key;
-	char *value;
-	struct shash_node_s *next;
-	struct shash_node_s *sprev;
-	struct shash_node_s *snext;
-} shash_node_t;
-
-typedef struct shash_table_s
-{
-	unsigned long int size;
-	shash_node_t **array;
-	shash_node_t *shead;
-	shash_node_t *stail;
-} shash_table_t;
-
-<h2> <ins>Function Prototypes:</ins>:cd::heavy_check_mark:</H2>
+<h2> <ins>Function Prototypes:</ins>:heavy_check_mark:</H2>
 
 | Task NO. | Title | File | Prototype |
 | :----: | :----:| :---- | :---- |
@@ -181,18 +153,18 @@ We strongly encourage you to work all together on a set of tests
 
 ##
 
-[Python_Dictionaries]( https://favtutor.com/resources/images/uploads/mceu_93797887411635500429275.png)
+![Python_Dictionaries]( https://favtutor.com/resources/images/uploads/mceu_93797887411635500429275.png)
 
 <H1> <ins>Python Dictionaries</ins>:floppy_disk:</H1>
 
-<ins>**Python dictionaries<ins>** are implemented using <ins>**hash tables</ins>**. **When you will be done with this project, you will be able to better understand the <ins>power and simplicity of Python dictionaries</ins>**. So much is actually happening **when you type <ins>d = {'a': 1, 'b': 2}</ins>,** but everything looks so simple for the user. <ins>**Python</ins> doesn’t use the exact same implementation** than the one you will work on today though. If you are curious on how it works under the hood, here is a <ins>**good blog post</ins>** about [how dictionaries are implemented in Python 2.7](https://intranet.alxswe.com/rltoken/hKhDFfKKcxdM9U8GZVPOHQ) (not mandatory).
+<ins>**Python dictionaries</ins>** are implemented using <ins>**hash tables</ins>**. **When you will be done with this project, you will be able to better understand the <ins>power and simplicity of Python dictionaries</ins>**. So much is actually happening **when you type <ins>d = {'a': 1, 'b': 2}</ins>,** but everything looks so simple for the user. <ins>**Python</ins> doesn’t use the exact same implementation** than the one you will work on today though. If you are curious on how it works under the hood, here is a <ins>**good blog post</ins>** about [how dictionaries are implemented in Python 2.7](https://intranet.alxswe.com/rltoken/hKhDFfKKcxdM9U8GZVPOHQ) (not mandatory).
 <br>
 > [!NOTE]
 > Note that all dictionaries are not implemented using hash tables and there is a difference between a dictionary and a hash table.
 
 * [Read more here](https://intranet.alxswe.com/rltoken/6wE80OFPwL-As1zGh2iMFg) (not mandatory).
 
-[Python_Dictionaries]( https://media.geeksforgeeks.org/wp-content/uploads/Dictionary-Creation-1.jpg)
+![Python_Dictionaries]( https://media.geeksforgeeks.org/wp-content/uploads/Dictionary-Creation-1.jpg)
 ##
 
 * File_name: 
@@ -229,12 +201,12 @@ We strongly encourage you to work all together on a set of tests
   * <ins>**0-hash_table_create.c**</ins>
 ###
 * Write a **function** that creates <ins>**hash table</ins>.**
-  * <ins>**Prototype</ins>:** **hash_table_t *hash_table_create(unsigned long int size);**
+  * <ins>**Prototype</ins>:** [hash_table_t *hash_table_create(unsigned long int size);](./hash_tables.h)**
     * where <ins>**size</ins>** is the **size of the array**
   * <ins>**Returns</ins>** a **pointer to the newly created hash table**
   * If something <ins>**went wrong</ins>,** **your function should return <ins>NULL</ins>**
 
-![Beki Habesha.]( https://i.ibb.co/557Bj07/0-main1-0x1-A-C-Hash-tables.png)
+![Beki Habesha.]( https://i.ibb.co/557Bj07/0-main1-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/mBxSJmb/0-main2-0x1-A-C-Hash-tables.png)
 
 ##
@@ -244,12 +216,12 @@ We strongly encourage you to work all together on a set of tests
   * <ins>**1-djb2.c**</ins>
 ###
 * Write a **hash function** implementing the <ins>**djb2 algorithm</ins>.**
-  * <ins>**Prototype</ins>:** **unsigned long int hash_djb2(const unsigned char *str);**
+  * <ins>**Prototype</ins>:** *[unsigned long int hash_djb2(const unsigned char *str);](./hash_tables.h)
   * If something <ins>**went wrong</ins>,** **your function should return <ins>NULL</ins>**
 You are <ins>**allowed to copy and paste</ins>** the **function** from [this page](https://intranet.alxswe.com/rltoken/3B7lCUBD4yZh66Pbl2KcEQ)
 
-![Beki Habesha.]( https://i.ibb.co/LztRMbS/1-main1-0x1-A-C-Hash-tables.png)
-![Beki Habesha.]( https://i.ibb.co/VMhB3f4/1-main2-0x1-A-C-Hash-tables.png)
+![Beki Habesha.]( https://i.ibb.co/LztRMbS/1-main1-0x1-A-C-Hash-tables.png)<br>
+![Beki Habesha.]( https://i.ibb.co/VMhB3f4/1-main2-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/PWKF4s0/1-main3-0x1-A-C-Hash-tables.png)
 
 ##
@@ -259,14 +231,14 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**2-key_index.c**</ins>
 ###
 * Write a **function** that gives you the <ins>**index of a key</ins>.**
-  * <ins>**Prototype</ins>:** **unsigned long int key_index(const unsigned char *key, unsigned long int size);**
+  * <ins>**Prototype</ins>:** [unsigned long int key_index(const unsigned char *key, unsigned long int size);](./hash_tables.h)
     * where <ins>**key</ins>** is the **key**
     * and <ins>**size</ins>** is the **size of the array of the hash table**
   * This **function** should use the **hash_djb2 <ins>function</ins> that you <ins>wrote earlier</ins>**
   * <ins>**Returns</ins>** the **index at which the key/value pair** should be **stored in the <ins>array of the hash table</ins>.**
   * <ins>**You will have to use this hash function for all the next tasks</ins>.**
 
-![Beki Habesha.]( https://i.ibb.co/pdMfLNq/2-main1-0x1-A-C-Hash-tables.png)
+![Beki Habesha.]( https://i.ibb.co/pdMfLNq/2-main1-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/pRhVm6K/2-main2-0x1-A-C-Hash-tables.png)
 
 ##
@@ -276,7 +248,7 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**3-hash_table_set.c**</ins>
 ###
 * Write a **function** that <ins>**adds an element to the hash table</ins>.**
-  * <ins>**Prototype</ins>:** **int hash_table_set(hash_table_t *ht, const char *key, const char *value);**
+  * <ins>**Prototype</ins>:** [int hash_table_set(hash_table_t *ht, const char *key, const char *value);](./hash_tables.h)
     * where <ins>**ht</ins>** is the **<ins>hash table</ins> you want to <ins>add or update the key/value to**</ins>
     * <ins>**key</ins>** is the **key.** <ins>**key</ins>** can not be an **empty string.**
     * and <ins>**value</ins>** is the **value associated with the key.** <ins>**value</ins>** must be **duplicated.** <ins>**value</ins>** can be an **empty string.**
@@ -303,12 +275,12 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**4-hash_table_get.c**</ins>
 ###
 * Write a **function** that <ins>**retrieves a value associated with a key</ins>.**
-  * <ins>**Prototype</ins>:** **char *hash_table_get(const hash_table_t *ht, const char *key);**
+  * <ins>**Prototype</ins>:** [char *hash_table_get(const hash_table_t *ht, const char *key);](./hash_tables.h)
     * where <ins>**ht</ins>** is the **<ins>hash table</ins> you want to <ins>look into**</ins>
     * and <ins>**key</ins>** is the **key you are** <ins>**looking for</ins>.**
   * <ins>**Returns</ins>:** **the <ins>value associated</ins> with the <ins>element</ins>, or <ins>NULL</ins> if <ins>key</ins> couldn’t be found**
 
-![Beki Habesha.]( https://i.ibb.co/XCRzCzx/4-main1-0x1-A-C-Hash-tables.png)
+![Beki Habesha.]( https://i.ibb.co/XCRzCzx/4-main1-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/N9m2jwp/4-main2-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/yP1fBxV/4-main3-0x1-A-C-Hash-tables.png)
 
@@ -319,7 +291,7 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**5-hash_table_print.c**</ins>
 ###
 * Write a **function** that <ins>**prints a hash table</ins>.**
-  * <ins>**Prototype</ins>:** **void hash_table_print(const hash_table_t *ht);**
+  * <ins>**Prototype</ins>:** [void hash_table_print(const hash_table_t *ht);](./hash_tables.h)
     * where <ins>**ht</ins>** is the **<ins>hash table</ins>.**
   * You should **print the <ins>key/value</ins> in the order that they appear in the <ins>array of hash table</ins>.**
     * <ins>**Order</ins>:** **array, list.** 
@@ -335,9 +307,9 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**6-hash_table_delete.c**</ins>
 ###
 * Write a **function** that <ins>**deletes a hash table</ins>.**
-  * <ins>**Prototype</ins>:** **void hash_table_delete(hash_table_t *ht);**
+  * <ins>**Prototype</ins>:** [void hash_table_delete(hash_table_t *ht);](./hash_tables.h)
 
-![Beki Habesha.]( https://i.ibb.co/bJdhGM9/6-main1-0x1-A-C-Hash-tables.png)
+![Beki Habesha.]( https://i.ibb.co/bJdhGM9/6-main1-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/RbTcbrS/6-main2-0x1-A-C-Hash-tables.png)<br>
 ![Beki Habesha.]( https://i.ibb.co/cQCvx4F/6-main3-0x1-A-C-Hash-tables.png)
 
@@ -350,7 +322,6 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
   * <ins>**100-sorted_hash_table.c**</ins>
 ###
 * In [PHP](https://intranet.alxswe.com/rltoken/UoWjDMSf7CR02W8bnn1geg),  hash tables are <ins>**ordered</ins>.** **Wait… WAT? <ins>How is this even possible?</ins>**<br>
-
 ![Beki Habesha.]( https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/5ebbea5dea5a575b38243d597604000715982925.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231201T165147Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=741c85ae2c8d3ba52814598c75561a154eda7a4f1551c26e37e23c7997aa6e3d)
 ###
 * <ins>**Before you continue</ins>, please take a moment to think about it: <ins>how you would implement it</ins> if you were <ins>asked to during an interview or a job</ins>. What <ins>data structures would you use</ins>? <ins>How would it work</ins>?**
@@ -367,20 +338,24 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
 ###
 
 ### **<ins>Rewrite the previous functions using these data structures</ins>:**
-* **"shash_table_t *shash_table_create(unsigned long int size);"**
-* **" int shash_table_set(shash_table_t *ht, const char *key, const char *value); "**
+* [shash_table_t *shash_table_create(unsigned long int size);](./hash_tables.h)
+* [int shash_table_set(shash_table_t *ht, const char *key, const char *value);](./hash_tables.h)
   * The <ins>**key/value pair</ins>** should be <ins>**inserted</ins>** in the <ins>**sorted list at the right place</ins>.**
   * **Note** that here we do not want to do **exactly like <ins>PHP<ins>:** we want to <ins>**create a sorted linked list<ins>,** by **key (<ins>sorted on ASCII value)<ins>,** that we can <ins>**print by traversing it<ins>.** See example.
-* **" char *shash_table_get(const shash_table_t *ht, const char *key); "**
-* **" void shash_table_print(const shash_table_t *ht); "**
+* [char *shash_table_get(const shash_table_t *ht, const char *key);](./hash_tables.h)
+* [void shash_table_print(const shash_table_t *ht);](./hash_tables.h)
   * Should <ins>**print the hash table</ins>** using the **sorted linked list.**
-* **" void shash_table_print_rev(const shash_table_t *ht); "**
+* [void shash_table_print_rev(const shash_table_t *ht);](./hash_tables.h)
   * Should <ins>**print the hash tables key/value pairs</ins>** in <ins>**reverse order</ins>** using the **sorted linked list.**
-* **" void shash_table_delete(shash_table_t *ht); "**
+* [void shash_table_delete(shash_table_t *ht);(./hash_tables.h)
 * **You are <ins>allowed to have more than 5 functions</ins> in your file.**
 
 
 ![Beki Habesha.]( https://i.ibb.co/gMb4nYV/7-main2-0x1-A-C-Hash-tables.png)
 ![Beki Habesha.]( https://i.ibb.co/BqDk9rn/7-main3-0x1-A-C-Hash-tables.png)
+
+###
+
+![Beki Habesha.]( https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/253/php.png)
 
 #
