@@ -367,7 +367,7 @@ You are <ins>**allowed to copy and paste</ins>** the **function** from [this pag
 ###
 
 ### **<ins>Rewrite the previous functions using these data structures</ins>:**
-* **" shash_table_t *shash_table_create(unsigned long int size); "**
+* **"shash_table_t *shash_table_create(unsigned long int size);"**
 * **" int shash_table_set(shash_table_t *ht, const char *key, const char *value); "**
   * The <ins>**key/value pair</ins>** should be <ins>**inserted</ins>** in the <ins>**sorted list at the right place</ins>.**
   * **Note** that here we do not want to do **exactly like <ins>PHP<ins>:** we want to <ins>**create a sorted linked list<ins>,** by **key (<ins>sorted on ASCII value)<ins>,** that we can <ins>**print by traversing it<ins>.** See example.
